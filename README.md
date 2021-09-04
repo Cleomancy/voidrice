@@ -2,6 +2,7 @@
 a port of my DWM config for void linux
 
 I use DWM and friends to make my pc look pretty, This is my preconfigured build
+Make sure your computer is up to date
 
 Everything has been configured to compile under Void Linux You'll probably have to install some dependencies yourself ALSO you may want to change the keyboard layout in the .xinitrc
 
