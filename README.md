@@ -6,6 +6,8 @@ Make sure your computer is up to date
 
 Everything has been configured to compile under Void Linux You'll probably have to install some dependencies yourself ALSO you may want to change the keyboard layout in the .xinitrc
 
+Don't forget to update your system
+
 PREREQ. xorg-server, xorg (I use xorg-minimal with xrdb setxkbmap and xauth) xinit base-devel libX11-devel libXft-devel libXinerama-devel feh unclutter unzip font-awesome and a ttf of your choice I personally use font-hack-ttf but you can change that in the script (xbacklight for laptops)
 
 Feel free to use it.
