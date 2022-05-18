@@ -9,12 +9,12 @@ fi
 cd ..
 userhome=$(pwd)
 
-xbps-install -y xorg-server xinit base-devel libX11-devel libXft-devel libXinerama-devel feh unclutter unzip font-awesome font-hack-tty
+xbps-install -y xorg-server xinit base-devel libX11-devel libXft-devel libXinerama-devel feh unclutter unzip font-awesome font-hack-ttf
 printf "installed dependencies\n"
 
 mkdir /etc/rice/
-mv $userhome/rice/rice.zip /etc/rice/
-mv $userhome/rice/dots.zip /$userhome
+mv $userhome/voidrice/rice.zip /etc/rice/
+mv $userhome/voidrice/dots.zip /$userhome
 printf "moved zips\n"
 
 cd /$userhome
