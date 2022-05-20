@@ -9,7 +9,7 @@ fi
 cd ..
 userhome=$(pwd)
 
-xbps-install -y xorg-server xinit base-devel libX11-devel libXft-devel libXinerama-devel feh unclutter unzip font-awesome font-hack-ttf
+xbps-install -y pkg-config xorg-server xinit base-devel libX11-devel libXft-devel libXinerama-devel feh unclutter unzip font-awesome font-hack-ttf
 printf "installed dependencies\n"
 
 mkdir /etc/rice/
